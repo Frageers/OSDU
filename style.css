@@ -47,12 +47,12 @@ body{
     margin-bottom: 20px;
 }
 .hero {
-    background-image: url(parliamentHill.png);
+    background-image: url(HouseOfCommons.avif);
     background-size: cover;  /* Ensures the whole div is covered */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
     width: 100%;
-    height: 1000px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
