@@ -3,7 +3,6 @@
     <head>
         <title>OSDU Debate Society</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/png" href="osduLogo.png">
     </head>
     <body>
         <div id="topPart">
@@ -19,10 +18,23 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="events.html">Events</a></li>
+                        <li class="dropdown">
+                            <a href="events.html">Events</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="events.html">Upcoming Events</a></li>
+                                <li><a href="pastEvents.html">Past Events</a></li>
+                            </ul>
+                            
+                        </li>
                         <li><a href="contact.html">Contact</a></li>
-                        <li><a href="resources.html">Resources</a></li>
-                        <li><a href="join.html">Join</a></li>
+                        <li class="dropdown">
+                            <a href="resources.html">Resources</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="canadianParliament.html">Canadian Parliament</a></li>
+                                <li><a href="britishParliament.html">British Parliament</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="join.html">Join</a></li>
                     </ul>
                 </nav>
             </div>
@@ -35,5 +47,22 @@
                 <a href="join.html" class="btn">Join Now</a>
             </div>
         </div>
+        <div class="divider"></div>
+        <div class="container">
+            <div class="section">
+                <img src="osduLogo.png" alt="OSDU Logo" class="section-image">
+                <h2>Events</h2>
+            </div>
+            <div class="section">
+                <img src="osduLogo.png" alt="OSDU Logo" class="section-image">
+                <h2>Canadian Parliament style resources</h2>
+            </div>
+            <div class="section">
+                <img src="osduLogo.png" alt="OSDU Logo" class="section-image">
+                <h2>British parliament style resources</h2>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <script src="script.js"></script>
     </body>
 </html>
